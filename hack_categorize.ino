@@ -5,16 +5,16 @@
 
 // Create list of shoes
 Shoe ma("Brooks Adrenaline GTS 18", "motion", 120, 10.1);
-Shoe mb("Saucony Omni 15", "motion", 130, 10.8);
+//Shoe mb("Saucony Omni 15", "motion", 130, 10.8);
 //Shoe mc("ASICS GEL Foundation 12", "motion", 120, 12.2);
 //Shoe md("ASICS GEL Fortitude 7", "motion", 120, 12.2);
-//Shoe me("New Balance 1260 v6", "motion", 150, 11.5);
+Shoe me("New Balance 1260 v6", "motion", 150, 11.5);
 //Shoe mf("Mizuno Wave Inspire 13", "motion", 120, 11.0);
 //Shoe mg("Hoka One One Gaviota", "motion", 150, 10.9);
 Shoe na("Mizuno Wave Rider 21", "Neutral", 120, 10.10);
-Shoe nb("Saucony Freedom ISO 2", "Neutral", 160, 9.10);
+//Shoe nb("Saucony Freedom ISO 2", "Neutral", 160, 9.10);
 //Shoe nc("New Balance 880v8", "Neutral", 125, 10.8);
-//Shoe nd("Mizuno Wave Creation 18", "Neutral", 160, 12.4);
+Shoe nd("Mizuno Wave Creation 18", "Neutral", 160, 12.4);
 //Shoe ne("ASICS GEL Nimbus 20", "Neutral", 160, 10.8);
 //Shoe nf("Salomon Speedcross 4 CS", "Neutral", 130, 10.5);
 //Shoe ng("Brooks Ghost 11", "Neutral", 120, 10.9);
@@ -22,8 +22,8 @@ Shoe nb("Saucony Freedom ISO 2", "Neutral", 160, 9.10);
 //Shoe ni("Brooks Glycerin 16", "Neutral", 150, 10.6);
 //Shoe nj("Nike Air Zoom Elite 8", "Neutral", 115, 9.5);
 Shoe sa("Asics Gel Kayano 24", "Stability", 160, 11.3);
-Shoe sb("Mizuno Wave Inspire 13", "Stability", 120, 11.0);
-//Shoe sc("Mizuno Wave Rider 20", "Stability", 120, 9.6);
+//Shoe sb("Mizuno Wave Inspire 13", "Stability", 120, 11.0);
+Shoe sc("Mizuno Wave Rider 20", "Stability", 120, 9.6);
 //Shoe sd("Asics Gel-Kayano 19", "Stability", 150, 11.3);
 //Shoe se("Saucony Guide 10", "Stability", 120, 10.0);
 //Shoe sf("Brooks Adrenaline GTS 17", "Stability", 120, 10.7);
@@ -31,7 +31,7 @@ Shoe sb("Mizuno Wave Inspire 13", "Stability", 120, 11.0);
 //Shoe sh("North Face Ultra 109 GTX", "Stability", 120, 15.5);
 //Shoe si("Brooks Ravenna 9", "Stability", 110, 9.3);
 //Shoe sj("Adidas Supernova M", "Stability", 130, 10.8);
-Shoe shoelist[] = {na, nb, ma, mb, sa, sb};
+Shoe shoelist[] = {na, nd, ma, me, sa, sc};
 
 // fsr's 
 int leftfsrPin = A1;
