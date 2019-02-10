@@ -68,7 +68,7 @@ void loop() {
     if(ch=='1'){
       // Get preference info
       Serial.println("What is your price range? Type 'a' for $125 and under, 'b' for $150 and under, and 'c' for $200 and under");
-      delay(5000);
+      delay(10000);
       char chb = Serial.read();
       if(chb=='a'){
         maxprice = 125;
@@ -79,7 +79,7 @@ void loop() {
       }
       //Serial.println(maxprice);
       Serial.println("Do you mind some extra weight on your shoes? If yes, type 'L'");
-      delay(5000);
+      delay(10000);
       char chc = Serial.read();
       if(chc=='L'){
         light = 10.85;
